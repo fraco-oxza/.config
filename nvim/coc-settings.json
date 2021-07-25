@@ -1,0 +1,92 @@
+{
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "rootPatterns": [
+        ".ccls",
+        "compile_commands.json",
+        ".vim/",
+        ".git/",
+        ".hg/"
+      ],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
+    }
+  },
+
+  "cSpellExt.enableDictionaries": ["spanish"],
+  "cSpell.language": "en, es",
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "c",
+    "cpp",
+    "rust",
+    "css",
+    "json",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tsserver.formatOnType": true,
+  "python.jediPath": "/home/fraco/.local/share/virtualenvs/nvim-NkuZN0Fd/lib/python3.9/site-packages",
+  "cSpell.userWords": [
+    "Alessandri",
+    "Egaña",
+    "Floa",
+    "Gemunu",
+    "Inclusividad",
+    "Interdisciplinariedad",
+    "Monokai",
+    "Socialización",
+    "Somarriva",
+    "Subrrallador",
+    "appname",
+    "asíntota",
+    "blinkon",
+    "consts",
+    "covalente",
+    "dirigismo",
+    "dotenv",
+    "entalpía",
+    "floaterm",
+    "fraco",
+    "gliales",
+    "gruvbox",
+    "holistica",
+    "iamcco",
+    "inhibidor",
+    "junegunn",
+    "mkdp",
+    "monoxido",
+    "morhetz",
+    "neoclide",
+    "noinsert",
+    "nucleotido",
+    "nucleotidos",
+    "phanviet",
+    "pipenv",
+    "primordialmente",
+    "println",
+    "proto",
+    "reactante",
+    "reactantes",
+    "rustc",
+    "tlsv",
+    "tpope",
+    "voldikss",
+    "Ítaca"
+  ]
+}
